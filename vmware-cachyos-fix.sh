@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Script for VMware Workstation 26H1 on CachyOS (and LLVM kernels)
 # Author: Zebrathor
+# Copyright (C) 2026 Zebrathor
 
 if [ "$EUID" -ne 0 ]; then
   echo "Please run this script with SUDO." >&2
